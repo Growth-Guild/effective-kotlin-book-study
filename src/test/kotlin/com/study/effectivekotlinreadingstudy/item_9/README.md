@@ -41,4 +41,3 @@ fun countCharactersInFile(path: String): Int {
 }
 ```
 * 이렇게 처리하면 메모리에 파일의 내용을 한 줄씩만 유지하므로, 대용량 파일도 적절하게 처리할 수 있다.
-p
