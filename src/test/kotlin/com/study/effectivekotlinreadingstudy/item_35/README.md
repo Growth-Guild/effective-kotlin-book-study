@@ -77,7 +77,7 @@ class TableBuilder {
     var trs = listOf<TrBuilder>()
     
     fun tr(init: TrBuilder.() -> Unit) {
-        trs = trs + TrBuildre().apply(init)
+        trs = trs + TrBuilder().apply(init)
     }
 }
 
